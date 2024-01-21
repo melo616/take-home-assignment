@@ -120,3 +120,7 @@ I began by reading the instructions in full, viewing the provided screen images,
 
 ## Mobile Responsive approach
 I chose to tackle the responsive styling with a mobile-first approach because although the site will probably be used primarily in a desktop context, in my experience mobile-first is more efficient in the long term and helps eliminate unexpected issues.
+
+## Challenges
+-Getting the background image to be responsive. I was able to achieve this by using the background-size property.
+-I wish the hover for the link would also affect the icon

@@ -15,17 +15,26 @@
             <div class="sidebar-top">
                 <img src="assets/DPI Logo.png" alt="dpi-logo" class="logo">
                 <div class="links">
-                    <div>
-                        <a href="#" class="red-orange-text">Courses</a>
+                    <div class="link">
+                        <a href="#" class="red-orange-text"><img
+                            src="assets/Nav-course icon-solid.svg"
+                            alt="open book icon"/>
+                            Courses
+                        </a>
                     </div>
-                    <div>
-                        <a href="#" class="white-text">Log out</a>
+                    <div class="link">
+                        <a href="#" class="white-text">
+                            <img
+                            src="assets/logout-icon-hollow.svg"
+                            alt="logout icon"/>
+                            Log out
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="sidebar-bottom white-text">
                 <div class="user-info">
-                    <img src="assets/Profile Thumbnail.png" alt="user profile picture" class="pfp">
+                    <img src="assets/Profile Thumbnail.png" alt="user profile picture">
                     <p>Miles Morales</p>
                 </div>
                 <div class="copyright-footer">
@@ -48,7 +57,7 @@
                         <div class="course-progress">
                             <p>In progress</p>
                             <p>Progress bar 75%</p>
-                            <img src="assets/arrow-default.png" alt="navigation arrow">
+                            <img src="assets/arrow-default.png" alt="navigation arrow" id="arrow1" onmouseover="hover(this);" onmouseout="unhover(this);" onclick="clickArrow(this);">
                         </div>
                     </div>
                 </div>
@@ -63,12 +72,13 @@
                         </div>
                         <div class="course-progress">
                             <p>Start now</p>
-                            <img src="assets/arrow-default.png" alt="navigation arrow">
+                            <img src="assets/arrow-default.png" alt="navigation arrow" id="arrow2" onmouseover="hover(this);" onmouseout="unhover(this);" onclick="clickArrow(this);">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -20,6 +20,11 @@ a {
     color: inherit;
 }
 
+a:hover {
+    scale: 1.1;
+    font-weight: bold;
+}
+
 h1 {
     font-size: 1rem;
 }
@@ -58,18 +63,29 @@ h2 {
     padding-bottom: 1.5rem;
 }
 
-.user-info{
+.user-info {
     font-size: 0.8rem;
 }
 
-.pfp {
-    width: 30%;
+.user-info:hover {
+    scale: 1.1;
+    cursor: pointer;
 }
-
 .links {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+}
+
+.link img {
+    height: 1em;
+    width: auto;
+    vertical-align: middle;
+}
+
+.link:hover {
+    font-weight: bold;
+    scale: 1.1;
 }
 
 .red-orange-text {
@@ -84,8 +100,8 @@ h2 {
     text-align: center;
 }
 
-.user-info {
-    padding-bottom: 1rem;
+.user-info img {
+    width: 30%;
 }
 
 .white-text {
@@ -93,6 +109,7 @@ h2 {
 }
 
 .copyright-footer {
+    padding-top: 1rem;
     font-size: 0.5rem;
 }
 
@@ -148,6 +165,20 @@ h2 {
     width: 25%;
 } 
 
+.course-progress {
+    font-weight: 100;
+    font-size: 0.4rem;
+}
+
+.course-progress img {
+    width: 15%;
+    padding-bottom: 1rem;
+}
+
+.course-progress img:hover {
+    cursor: pointer;
+}
+
 /* Media query for large screens */
 @media screen and (min-width: 600px) {
     h2 {
@@ -181,5 +212,9 @@ h2 {
 
     .card-title {
         padding-bottom: 3rem;
+    }
+
+    .course-progress {
+        font-size: 0.8rem;
     }
 }
