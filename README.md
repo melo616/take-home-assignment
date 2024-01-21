@@ -112,3 +112,11 @@ If you encounter any issues with setting up Node.js or the **`http-server`**, pl
 ## Additional Assistance
 
 Please note that if you have any questions or need clarification on any aspect of the assignment, do not hesitate to reach out to me. Whether it's a technical query, a question about the design specifications, or a request for further information about the assignment's context, I am here to assist you.
+
+# README: My Approach
+
+## Getting Started
+I began by reading the instructions in full, viewing the provided screen images, and looking at all of the provided assets to get an idea of expectations and how to start. I wrote all of the HTML first. 
+
+## Mobile Responsive approach
+I chose to tackle the responsive styling with a mobile-first approach because although the site will probably be used primarily in a desktop context, in my experience mobile-first is more efficient in the long term and helps eliminate unexpected issues.
