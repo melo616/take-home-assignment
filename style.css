@@ -6,6 +6,7 @@
 }
 
 * {
+    font-family: "Lato", sans-serif;
     margin: 0;
 }
 
@@ -45,7 +46,7 @@ h2 {
     flex: 1;
     align-items: center;
     background-color: hsl(225deg 70% 24%);
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 .sidebar-top {
@@ -55,6 +56,14 @@ h2 {
 .logo {
     width: 50%;
     padding-bottom: 1.5rem;
+}
+
+.user-info{
+    font-size: 0.8rem;
+}
+
+.pfp {
+    width: 30%;
 }
 
 .links {
@@ -96,13 +105,13 @@ h2 {
     background-position-y: 95%;
     background-repeat: no-repeat;
     background-size: 95% auto;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .card-container {
     display: flex;
     margin: 1rem 0;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 /* height is approx 320 */
@@ -111,41 +120,66 @@ h2 {
     width: fit-content;
     border: 1px solid black;
     background-color: white;
+    background-position: top right;
+    background-repeat: no-repeat;
 }
 
-.card-graphic {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 65%;
+.one {
+    background-image: url("assets/card bg-1.png");
+    background-size: 80% auto;
+}
+
+.two {
+    background-image: url("assets/card bg-2.png");
+    background-size: 60% auto;
 }
 
 .card-header {
-    position: absolute;
-    padding-top: 0.5rem;
-    padding-right: 0.5rem;
-    top: 0;
-    right: 0;
+    text-align: end;
     color: hsl(225deg 70% 24%);
+    padding: 5px 5px 0;
+    font-size: 0.5rem;
 }
 
 .card-content {
-    padding: 2rem 1rem;
+    padding: 0 0.25rem;
 }
-
 .card-thumbnail {
     width: 25%;
 } 
 
 /* Media query for large screens */
 @media screen and (min-width: 600px) {
+    h2 {
+        font-size: 1rem;
+    }
     .main {
         flex: 4;
         background-color: hsl(0deg 5% 96%);
         background-size: 50% auto;
+        padding: 2rem;
+    }
+
+    .sidebar {
+        padding: 2rem 0;
+    }
+
+    .card-container {
+        gap: 1rem;
     }
 
     .card {
         max-width: 250px;
+    }
+
+    .card-header {
+        font-size: 1rem;
+    }
+    .card-content {
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .card-title {
+        padding-bottom: 3rem;
     }
 }
