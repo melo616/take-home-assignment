@@ -19,6 +19,9 @@ a {
     color: inherit;
 }
 
+h1 {
+    font-size: 1rem;
+}
 h2 {
     font-size: .5rem;
 }
@@ -38,16 +41,29 @@ h2 {
 .sidebar {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     flex: 1;
     align-items: center;
     background-color: hsl(225deg 70% 24%);
+    padding: 2rem;
+}
+
+.sidebar-top {
+    text-align: center;
 }
 
 .logo {
     width: 50%;
+    padding-bottom: 1.5rem;
 }
 
-.red-orange-font {
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.red-orange-text {
     color: hsl(7deg 100% 63%);
 }
 
@@ -55,12 +71,20 @@ h2 {
     background-color: hsl(113deg, 63%, 59%);
 }
 
+.sidebar-bottom {
+    text-align: center;
+}
+
 .user-info {
+    padding-bottom: 1rem;
+}
+
+.white-text {
     color: white;
 }
 
 .copyright-footer {
-    color: white;
+    font-size: 0.5rem;
 }
 
 /* Main section and related styles */
@@ -69,13 +93,16 @@ h2 {
     background-color: white;
     background-image: url("assets/illustration.png");
     background-position: bottom right;
+    background-position-y: 95%;
     background-repeat: no-repeat;
-    background-size: contain;
-    border: 2px solid pink;
+    background-size: 95% auto;
+    padding: 2rem;
 }
 
 .card-container {
     display: flex;
+    margin: 1rem 0;
+    gap: 1rem;
 }
 
 /* height is approx 320 */
@@ -113,8 +140,8 @@ h2 {
 /* Media query for large screens */
 @media screen and (min-width: 600px) {
     .main {
-        /* background-color: hsl(0deg 5% 96%); */
-        background-color: red;
+        flex: 4;
+        background-color: hsl(0deg 5% 96%);
         background-size: 50% auto;
     }
 
