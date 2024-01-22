@@ -32,11 +32,6 @@ h2 {
     font-size: .5rem;
 }
 
-/* development style for layout */
-.dev-outline {
-    border: 2px solid red;
-}
-
 /* Contains sidebar and main section */
 .wrapper {
     display: flex;
