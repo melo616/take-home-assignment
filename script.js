@@ -5,7 +5,3 @@ function hover(icon) {
 function unhover(icon) {
     icon.setAttribute('src', 'assets/arrow-default.png');
 }
-
-function clickArrow(icon) {
-    icon.setAttribute('src', 'assets/arrow-pressed.png');
-}
