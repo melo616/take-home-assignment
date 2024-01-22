@@ -186,12 +186,42 @@ h2 {
 .course-progress img {
     width: 15%;
     padding-bottom: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 0.25rem;
 }
 
 .course-progress img:hover {
     cursor: pointer;
 }
+
+.course-progress p {
+    padding-bottom: 0.25rem;
+}
+.progress-container {
+    display: flex;
+}
+
+.progress-bar {
+    position: relative;
+    width: 75%;
+    height: 1em;
+    background-color:  hsl(225deg 70% 24%);
+    border-radius: 15px;
+    margin-right: 0.5rem;
+}
+
+.complete-bar {
+    position: absolute;
+    width: 75%;
+    height: 1em;
+    background-color: hsl(7deg 100% 63%);
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.progress-bar p {
+    color: hsl(0deg 0% 60%);
+}
+
 
 /* Media query for large screens */
 @media screen and (min-width: 600px) {
