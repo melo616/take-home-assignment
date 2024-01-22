@@ -138,12 +138,11 @@ h2 {
     gap: 0.5rem;
 }
 
-/* height is approx 320 */
 .card {
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: fit-content;
     border: 1px solid black;
     background-color: white;
@@ -170,6 +169,7 @@ h2 {
 
 .card-content {
     padding: 0 0.25rem;
+    border: 2px solid pink;
 }
 .card-thumbnail {
     width: 25%;
