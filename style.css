@@ -56,6 +56,7 @@ h2 {
 
 .sidebar-top {
     text-align: center;
+    font-size: 0.8rem;
 }
 
 .logo {
@@ -64,7 +65,7 @@ h2 {
 }
 
 .user-info {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 
 .user-info:hover {
@@ -148,7 +149,6 @@ h2 {
     position: relative;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     width: fit-content;
     border: 1px solid black;
     background-color: white;
@@ -174,9 +174,12 @@ h2 {
 }
 
 .card-content {
+    display: flex;
+    flex-direction: column;
     padding: 0 0.25rem;
-    border: 2px solid pink;
+    height: 100%;
 }
+
 .card-thumbnail {
     width: 25%;
 } 
@@ -186,6 +189,7 @@ h2 {
 }
 
 .course-progress {
+    margin-top: auto;
     font-weight: 100;
     font-size: 0.4rem;
 }
@@ -231,7 +235,7 @@ h2 {
 
 
 /* Media query for large screens */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
     h2 {
         font-size: 1rem;
     }
@@ -244,6 +248,14 @@ h2 {
 
     .sidebar {
         padding: 2rem 0;
+    }
+
+    .sidebar-top {
+        font-size: 1rem;
+    }
+
+    .user-info {
+        font-size: 0.8rem;
     }
 
     .card-container {
