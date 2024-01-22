@@ -116,11 +116,14 @@ Please note that if you have any questions or need clarification on any aspect o
 # README: My Approach
 
 ## Getting Started
-I began by reading the instructions in full, viewing the provided screen images, and looking at all of the provided assets to get an idea of expectations and how to start. I wrote all of the HTML first. 
+I began by reading the instructions in full, viewing the provided screen images, and looking at all of the provided assets to get an idea of expectations and how to start. I wrote all of the HTML before touching the CSS. 
 
 ## Mobile Responsive approach
-I chose to tackle the responsive styling with a mobile-first approach because although the site will probably be used primarily in a desktop context, in my experience mobile-first is more efficient in the long term and helps eliminate unexpected issues.
+I chose to tackle the responsive styling with a mobile-first approach because although the site will probably be used primarily in a desktop context, in my experience mobile-first is more efficient in the long term and helps eliminate unexpected formatting issues.
 
 ## Challenges
--Getting the background image to be responsive. I was able to achieve this by using the background-size property.
--I wish the hover for the link would also affect the icon
+- Getting the background image to be responsive. I was able to achieve this by using the background-size property, which I haven't used extensively but found some very helful articles about.
+- I wish the hover for the link would also affect the icon
+- Graphics in card: My original approach was to place them using absolute positioning which worked but caused several issues with layering and formatting as I continued styling. I realized background image was a much better way to handle this and this was a good learning experience for card styling overall.
+- Selecting the right font was also a challenge. I selected the closest I could find but I can spot some minor differences in some of the letters. I found some cool sites that supposedly have the ability to identify font from an image, but unfortunately the fonts it provided also had some differences from what I saw in the mockup.
+- Color matching: To get the right colors I imported the mockup to Figma and used the eyedrop tool. I've just started using Figma this week since I am also working on my portfolio and I was really pleased with how straightforward and effective this feature is.
