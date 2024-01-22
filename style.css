@@ -228,12 +228,12 @@ h2 {
     color: hsl(0deg 0% 60%);
 }
 
-
 /* Media query for large screens */
 @media screen and (min-width: 700px) {
-    h2 {
+    h2, .sidebar-top {
         font-size: 1rem;
     }
+
     .main {
         flex: 4;
         background-color: hsl(0deg 5% 96%);
@@ -245,14 +245,6 @@ h2 {
         padding: 2rem 0;
     }
 
-    .sidebar-top {
-        font-size: 1rem;
-    }
-
-    .user-info {
-        font-size: 0.8rem;
-    }
-
     .card-container {
         gap: 1rem;
     }
@@ -261,14 +253,11 @@ h2 {
         max-width: 250px;
     }
 
-    .card-header {
+    .user-info, .card-header, .course-progress {
         font-size: 0.8rem;
-    }
-    .card-content {
-        padding: 1rem 1rem 0 1rem;
     }
 
-    .course-progress {
-        font-size: 0.8rem;
+    .card-content {
+        padding: 1rem 1rem 0 1rem;
     }
 }
