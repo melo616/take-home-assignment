@@ -73,6 +73,7 @@ h2 {
 }
 
 .links {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -95,6 +96,11 @@ h2 {
 }
 
 .green-accent {
+    position: absolute;
+    right: -0.5rem;
+    top: 0.5rem;
+    height: 1.2rem;
+    width: 1rem;
     background-color: hsl(113deg, 63%, 59%);
 }
 
